@@ -1,8 +1,8 @@
 import { FreeMode, Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Testimonial41 from "../../../public/assets/imgs/testimonial/4/1.jpg";
-import Testimonial42 from "../../../public/assets/imgs/testimonial/4/2.jpg";
-import Testimonial43 from "../../../public/assets/imgs/testimonial/4/3.jpg";
+import marjane from "../../../public/assets/imgs/testimonial/4/marjane.jpg";
+import yanna from "../../../public/assets/imgs/testimonial/4/ynna.jpg";
+import pharma from "../../../public/assets/imgs/testimonial/4/pharma.jpg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -71,7 +71,7 @@ const StartupAgencyTestimonial = () => {
                         width={85}
                         height={85}
                         className="testimonial__img-4"
-                        src={Testimonial41}
+                        src={marjane}
                         alt="Testimonial Image"
                       />
                       <div className="testimonial__info-4">
@@ -99,7 +99,7 @@ const StartupAgencyTestimonial = () => {
                         width={85}
                         height={85}
                         className="testimonial__img-4"
-                        src={Testimonial42}
+                        src={pharma}
                         alt="Testimonial Image"
                       />
                       <div className="testimonial__info-4">
@@ -121,12 +121,12 @@ const StartupAgencyTestimonial = () => {
                         width={85}
                         height={85}
                         className="testimonial__img-4"
-                        src={Testimonial43}
+                        src={yanna}
                         alt="Testimonial Image" 
                       />
                       <div className="testimonial__info-4">
                         <h4 className="testimonial__feedback-4">
-                          SDTM
+                          Yanna
                         </h4>
                         <p>
                         Chez PALMERAIE INDUSTRIES, nous sommes ravis des services de GENERAFI et de leurs produits de qualité. 
@@ -146,7 +146,7 @@ const StartupAgencyTestimonial = () => {
                         width={85}
                         height={85}
                         className="testimonial__img-4"
-                        src={Testimonial41}
+                        src={yanna}
                         alt="Testimonial Image"
                       />
                       <div className="testimonial__info-4">
@@ -174,7 +174,7 @@ const StartupAgencyTestimonial = () => {
                         width={85}
                         height={85}
                         className="testimonial__img-4"
-                        src={Testimonial42}
+                        src={yanna}
                         alt="Testimonial Image"
                       />
                       <div className="testimonial__info-4">
@@ -196,7 +196,7 @@ const StartupAgencyTestimonial = () => {
                         width={85}
                         height={85}
                         className="testimonial__img-4"
-                        src={Testimonial43}
+                        src={yanna}
                         alt="Testimonial Image"
                       />
                       <div className="testimonial__info-4">

@@ -1,48 +1,49 @@
 import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
-import Link from "next/link";
-import Gestionhome from "../../../public/assets/imgs/service/4/Gestionhome.png";
-import Image from "next/image";
+import Link from "next/link.js";
+import ineoassets from "../../../public/assets/imgs/blog/3/ineoassets.jpg";
+import immoasset from "../../../public/assets/imgs/blog/3/immoasset.jpg";
+import Image from "next/image.js";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const GenerafiService = () => {
+const BlogElementV2 = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       let device_width = window.innerWidth;
       let tHero = gsap.context(() => {
-        gsap.set(".fade_bottom_2", { y: 30, opacity: 0 });
+        gsap.set(".blog__animation .blog__item-3", { x: 50, opacity: 0 });
 
         if (device_width < 1023) {
-          const fadeArray = gsap.utils.toArray(".fade_bottom_2");
-          fadeArray.forEach((item, i) => {
-            let fadeTl = gsap.timeline({
+          const blogList = gsap.utils.toArray(".blog__animation .blog__item-3");
+          blogList.forEach((item, i) => {
+            let blogTl = gsap.timeline({
               scrollTrigger: {
                 trigger: item,
                 start: "top center+=200",
               },
             });
-            fadeTl.to(item, {
-              y: 0,
+            blogTl.to(item, {
+              x: 0,
               opacity: 1,
               ease: "power2.out",
               duration: 1.5,
             });
           });
         } else {
-          gsap.to(".fade_bottom_2", {
+          gsap.to(".blog__animation .blog__item-3", {
             scrollTrigger: {
-              trigger: ".fade_bottom_2",
+              trigger: ".blog__animation .blog__item-3",
               start: "top center+=300",
               markers: false,
             },
-            y: 0,
+            x: 0,
             opacity: 1,
             ease: "power2.out",
-            duration: 1,
+            duration: 2,
             stagger: {
-              each: 0.2,
+              each: 0.3,
             },
           });
         }
@@ -52,91 +53,109 @@ const GenerafiService = () => {
   }, []);
   return (
     <>
-      <section className="service__area-4">
-        <div className="container g-0 line_4 pt-150 pb-140">
-          <div className="line-col-4">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-
-          <div className="row">
-            <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-6">
-              <div className="service__left-6">
-                <h2 className="sec-subtile-6">Services</h2>
-                <h3 className="sec-title-6 title-anim">
-                  Gestion<br />d’entrprise
+      <section className="blog__area-3 blog-v3 blog__animation">
+        <div className="container line">
+          <div className="line-3"></div>
+          <div className="row ">
+            <div className="col-xxl-12">
+              <div className="sec-title-wrapper text-anim pt-130">
+                <h2 className="sec-sub-title">Recent Blog</h2>
+                <h3 className="sec-title title-anim">
+                  Gestion <br />
+                  d’entreprise
                 </h3>
-              </div>
-            </div>
-            <div className="col-xxl-7 col-xl-7 col-lg-6 col-md-6">
-              <div className="service__right-4">
                 <p>
-                Nous réinventons en permanence l’avenir en développant la prochaine génération de produits,
-                de marques et de services dans le domaine de la gestion d’entreprise{" "}
-                  <span>, en adoptant une approche hybride.</span>
+                  Optimisez la gestion de votre entreprise 
+                  Lorem ipsum. lorem ipsum lorem ipsum lorem
+                  lorem ipsum.{" "}
                 </p>
               </div>
             </div>
           </div>
-          <div className="service__inner-4">
-            <div className="row">
-              <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-6">
-                <div className="service__img-left">
-                  <Image
-                    priority
-                    width={430}
-                    style={{ height: "auto" }}
-                    src={Gestionhome}
-                    alt="Service"
-                  />
+
+          <div className="row">
+            <div className="col-xxl-6 col-xl-6 col-lg-6">
+              <article className="blog__item-3">
+                <div className="blog__img-wrapper-3">
+                  <Link href="/blog-details">
+                    <div className="img-box">
+                      <Image
+                        priority
+                        style={{ width: "auto", height: "auto" }}
+                        className="image-box__item"
+                        src={ineoassets}
+                        alt="Blog Thumbnail"
+                      />
+                      <Image
+                        priority
+                        style={{ width: "auto", height: "auto" }}
+                        className="image-box__item"
+                        src={ineoassets}
+                        alt="Blog Thumbnail"
+                      />
+                    </div>
+                  </Link>
                 </div>
-              </div>
-              <div className="col-xxl-7 col-xl-7 col-lg-6 col-md-6">
-                <div className="service__list-4">
-                  <div className="service__item-4 fade_bottom_2">
-                    <div className="service__item-number">
-                      <span>01</span>
-                    </div>
-                    <div className="service__title-wrapper-4">
-                      <h4>
-                        <Link
-                          className="service__item-title"
-                          href="/service-details"
-                        >
-                          Gestion commerciale
-                        </Link>
-                      </h4>
-                    </div>
-                    <div className="service__item-icon">
-                      <Link href="/service-details">
-                        <i className="fa-solid fa-arrow-right"></i>
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="service__item-4 fade_bottom_2">
-                    <div className="service__item-number">
-                      <span>02</span>
-                    </div>
-                    <div className="service__title-wrapper-4">
-                      <h4>
-                        <Link
-                          className="service__item-title"
-                          href="/service-details"
-                        >
-                          Gestion d’immobilisations
-                        </Link>
-                      </h4>
-                    </div>
-                    <div className="service__item-icon">
-                      <Link href="/service-details">
-                        <i className="fa-solid fa-arrow-right"></i>
-                      </Link>
-                    </div>
-                  </div>
+                <div className="blog__info-3">
+                  <h4 className="blog__meta">
+                    <Link href="/category">Gestion commerciale</Link>
+                  </h4>
+                  <h5>
+                    <Link href="/blog-details" className="blog__title-3">
+                    Pilotez votre entreprise tout en étant connecté 
+                    à votre entourage professionnel.
+                    </Link>
+                  </h5>
+                  <Link href="/blog-details" className="blog__btn">
+                    Voir plus{" "}
+                    <span>
+                      <i className="fa-solid fa-arrow-right"></i>
+                    </span>
+                  </Link>
                 </div>
-              </div>
+              </article>
+            </div>
+
+            <div className="col-xxl-6 col-xl-6 col-lg-6">
+              <article className="blog__item-3">
+                <div className="blog__img-wrapper-3">
+                  <Link href="/blog-details">
+                    <div className="img-box">
+                      <Image
+                        priority
+                        style={{ width: "auto", height: "auto" }}
+                        className="image-box__item"
+                        src={immoasset}
+                        alt="Blog Thumbnail"
+                      />
+                      <Image
+                        priority
+                        style={{ width: "auto", height: "auto" }}
+                        className="image-box__item"
+                        src={immoasset}
+                        alt="Blog Thumbnail"
+                      />
+                    </div>
+                  </Link>
+                </div>
+                <div className="blog__info-3">
+                  <h4 className="blog__meta">
+                    <Link href="/category">Gestion d’immobilisations</Link>
+                  </h4>
+                  <h5>
+                    <Link href="/blog-details" className="blog__title-3">
+                      Gérez efficacement votre actif immobilisé, 
+                      tant physiquement que comptablement
+                    </Link>
+                  </h5>
+                  <Link href="/blog-details" className="blog__btn">
+                    voir plus{" "}
+                    <span>
+                      <i className="fa-solid fa-arrow-right"></i>
+                    </span>
+                  </Link>
+                </div>
+              </article>
             </div>
           </div>
         </div>
@@ -145,4 +164,4 @@ const GenerafiService = () => {
   );
 };
 
-export default GenerafiService;
+export default BlogElementV2;
