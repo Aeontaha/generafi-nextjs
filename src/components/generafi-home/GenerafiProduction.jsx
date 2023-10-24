@@ -69,7 +69,7 @@ const StartupAgencyWorkflow = () => {
           <div className="row animation_workflow_6">
             <div className="col-xxl-12">
               <div className="title-wrapper-6 text-anim">
-                <h2 className="sec-subtile-6">Processing</h2>
+                <h2 className="sec-subtile-6">Générafi</h2>
                 <h3 className="sec-title-6 title-anim">Production comptable</h3>
                 <p>
                 Découvrez des solutions comptables nouvelle génération,

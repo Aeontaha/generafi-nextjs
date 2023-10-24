@@ -116,7 +116,7 @@ const GenerafiTele = () => {
           <div className="row">
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
               <div className="sec-title-wrapper wrap">
-                <h2 className="sec-sub-title title-anim">service</h2>
+                <h2 className="sec-sub-title title-anim">Générafi</h2>
                 <h3 className="sec-title title-anim">
                   Télé <br />
                   déclaration

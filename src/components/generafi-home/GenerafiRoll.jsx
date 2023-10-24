@@ -44,97 +44,92 @@ const GenerafiRoll = () => {
           >
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Development</h2>
+                <h2>Production comptable</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Studio</h2>
+                <h2>Télé-déclaration</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Strategy</h2>
+                <h2>Gestion d'entreprise</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Branding</h2>
+                <h2>Digitalisation de cabinet</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Agency</h2>
+                <h2>Gestion immobilisation</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>typhography</h2>
+                <h2>Gestion commerciale</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Design</h2>
+                <h2>TVA</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Interaction</h2>
+                <h2>Etats financiers</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Element</h2>
+                <h2>Traitements & Salaire</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>DIgital SOlution</h2>
+                <h2>Production comptable</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Strategy</h2>
+                <h2>Télé-déclaration</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Branding</h2>
+                <h2>Gestion d'entreprise</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Agency</h2>
+                <h2>Digitalisation de cabinet</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Interaction</h2>
+                <h2>Gestion immobilisation</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>DIgital SOlution</h2>
+                <h2>Gestion commerciale</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>typhography</h2>
+                <h2>TVA</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Design</h2>
+                <h2>Etats financiers</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Interaction</h2>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Element</h2>
+                <h2>Traitements & Salaire</h2>
               </div>
             </SwiperSlide>
           </Swiper>
