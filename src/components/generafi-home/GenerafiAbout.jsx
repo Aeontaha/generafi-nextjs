@@ -33,7 +33,7 @@ const GenerafiAbout = () => {
             <div className="col-xxl-12">
               <div className="about__title-wrapper">
                 <h3 className="sec-title title-anim">
-                 GénéraFi vous accompagne dans la digitalisation de votre cabinet!
+                Professionnels Comptables : GénéraFi vous accompagne dans la digitalisation de votre cabinet!
                 </h3>
               </div>
 
@@ -78,7 +78,7 @@ const GenerafiAbout = () => {
                       className="btn-item wc-btn-primary btn-hover"
                       href="/about"
                     >
-                      <span></span> Explore Us{" "}
+                      <span></span> Découvrir{" "}
                       <i className="fa-solid fa-arrow-right"></i>
                     </Link>
                   </div>

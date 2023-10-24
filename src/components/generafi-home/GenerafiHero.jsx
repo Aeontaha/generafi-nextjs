@@ -135,6 +135,10 @@ const GenerafiHero = () => {
                       potontiel
                     </span>{" "}
                   </h1>
+                  <h2 className="animate_content" ref={heroContentSection}>
+                    {" "}
+                    de votre entreprise
+                  </h2>
                   <p className="animate_content" ref={heroContentSection}>
                     {" "}
                     Éditeur marocain de logiciels de gestion fiables
