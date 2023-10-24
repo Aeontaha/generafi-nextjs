@@ -59,7 +59,7 @@ const BlogElementV2 = () => {
           <div className="row ">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper text-anim pt-130">
-                <h2 className="sec-sub-title">Recent Blog</h2>
+                <h2 className="sec-sub-title">Générafi</h2>
                 <h3 className="sec-title title-anim">
                   Gestion <br />
                   d’entreprise
