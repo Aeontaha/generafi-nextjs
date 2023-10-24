@@ -2,10 +2,10 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "@/plugins";
 import ArrowDownSm from "../../../public/assets/imgs/icon/arrow-down-sm.png";
-import Hero31 from "../../../public/assets/imgs/hero/3/1.jpg";
+import comptabanner from "../../../public/assets/imgs/hero/3/comptabanner.jpg";
 import Image from "next/image.js";
 
-const DigitalMarketingHero = () => {
+const ComptaHero = () => {
   const titleLeft = useRef();
   const titleRight = useRef();
   const heroTextAnim = useRef();
@@ -50,7 +50,7 @@ const DigitalMarketingHero = () => {
   }, []);
 
   const openVideo = () => {
-    let headerArea = document.querySelector(".header__area-3");
+    let headerArea = document.querySelector(".header__area-7");
     let video = videoTitle.current;
     let videoClose = videoCloseSection.current;
     if (videoCheck.current.checked) {
@@ -75,19 +75,17 @@ const DigitalMarketingHero = () => {
             <div className="col-xxl-12">
               <div className="hero__inner-3">
                 <div className="sec-title-wrapper">
-                  <h2 className="sec-sub-title">Digital</h2>
+                  <h2 className="sec-sub-title">Production comptable</h2>
                   <h3 className="sec-title title-left" ref={titleLeft}>
-                    Mark
+                    Com
                   </h3>
                   <h3 className="sec-title title-right" ref={titleRight}>
-                    eting
+                    pta
                   </h3>
                 </div>
                 <div className="hero__text-3">
                   <p className="hero__text-animation" ref={heroTextAnim}>
-                    Static and dynamic secure code review can prevent a day
-                    before your product is even released. We can integrate with
-                    your dev environment
+                    Suivez votre performance financière avec une longueur d’avance…
                   </p>
                 </div>
                 <div className="scroll-down">
@@ -115,13 +113,13 @@ const DigitalMarketingHero = () => {
               />
               <div className="intro-title">
                 <h4 className="video-title" ref={videoTitle}>
-                  Watch <span>video intro</span>
+                  Voir <span>la demo</span>
                 </h4>
                 <h4
                   className="video-title close-video-title"
                   ref={videoCloseSection}
                 >
-                  Close <span>video intro</span>
+                  Fermer <span>la demo</span>
                 </h4>
               </div>
               <div className="video">
@@ -142,7 +140,7 @@ const DigitalMarketingHero = () => {
             priority
             width={1195}
             style={{ height: "auto" }}
-            src={Hero31}
+            src={comptabanner}
             alt="Hero Image"
             className="hero3-img"
           />
@@ -152,4 +150,4 @@ const DigitalMarketingHero = () => {
   );
 };
 
-export default DigitalMarketingHero;
+export default ComptaHero;
