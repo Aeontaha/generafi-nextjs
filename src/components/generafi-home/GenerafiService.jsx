@@ -2,8 +2,10 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
 import Link from "next/link.js";
-import ineoassets from "../../../public/assets/imgs/blog/3/ineoassets.jpg";
-import immoasset from "../../../public/assets/imgs/blog/3/immoasset.jpg";
+import ineoassets from "../../../public/assets/imgs/blog/3/bureau.jpg";
+import immoasset from "../../../public/assets/imgs/blog/3/finger.jpg";
+import logoimmo from "../../../public/assets/imgs/blog/3/logoimmo.png";
+import logoineo from "../../../public/assets/imgs/blog/3/logo_ineo.png";
 import Image from "next/image.js";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -97,6 +99,13 @@ const BlogElementV2 = () => {
                   </Link>
                 </div>
                 <div className="blog__info-3">
+                <Image
+                        priority
+                        style={{ width: "auto", height: "50px" }}
+                        className="image-box__item"
+                        src={logoineo}
+                        alt="Logo Ineo"
+                      />
                   <h4 className="blog__meta">
                     <Link href="/category">Gestion commerciale</Link>
                   </h4>
@@ -139,6 +148,13 @@ const BlogElementV2 = () => {
                   </Link>
                 </div>
                 <div className="blog__info-3">
+                   <Image
+                        priority
+                        style={{ width: "auto", height: "50px" }}
+                        className="image-box__item"
+                        src={logoimmo}
+                        alt="Logo Immobilisation"
+                      />
                   <h4 className="blog__meta">
                     <Link href="/category">Gestion d’immobilisations</Link>
                   </h4>

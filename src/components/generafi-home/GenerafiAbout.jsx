@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger, ScrollSmoother } from "@/plugins";
 import Link from "next/link";
 import Image from "next/image";
-import About11 from "../../../public/assets/imgs/about/1/generafiabout.png";
+import About11 from "../../../public/assets/imgs/about/1/arriere-plan-technologique.jpg";
 import About12 from "../../../public/assets/imgs/about/1/generafiabout2.png";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);

@@ -62,6 +62,9 @@ const GenerafiBrand = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
+                <h2 className="sec-sub-title title-anim">Nos partenaires</h2>
+                <h3 className="sec-title title-anim">
+                  Plus de 2 000 clients dans le monde<br /> nous font confiance !
                 <h2 className="sec-sub-title title-anim">Internation Brands</h2>
                 <h3 className="sec-title title-anim">
                   We are happy to work with global <br />

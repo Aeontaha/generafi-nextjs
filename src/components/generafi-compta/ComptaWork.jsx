@@ -1,6 +1,4 @@
 
-
-
 const ComptaWork = () => {
     return (
       <>
@@ -51,4 +49,3 @@ const ComptaWork = () => {
   };
   
   export default ComptaWork;
-  
