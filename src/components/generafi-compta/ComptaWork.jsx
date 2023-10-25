@@ -1,6 +1,3 @@
-import { FaIconName } from 'react-icons/fa';
-
-
 const ComptaWork = () => {
     return (
       <>
@@ -51,4 +48,3 @@ const ComptaWork = () => {
   };
   
   export default ComptaWork;
-  
