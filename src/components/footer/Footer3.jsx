@@ -35,8 +35,7 @@ export default function Footer3() {
                       alt="Footer Logo"
                     />
                     <p>
-                      When do they work well, and when do they on us and
-                      finally, when do we actually need how can we avoid them.
+                    Depuis notre création en 2011, notre mission est d’accompagner la transformation digitale de l’entreprise marocaine pour simplifier et maîtriser sa gestion au quotidien et se concentrer sur l’essentiel.
                     </p>
                     <ul className="footer__social">
                       <li>
@@ -71,38 +70,46 @@ export default function Footer3() {
                   </div>
 
                   <div className="footer__widget-2">
-                    <h2 className="footer__widget-title">Information</h2>
+                    <h2 className="footer__widget-title">Produits</h2>
                     <ul className="footer__link">
                       <li>
-                        <Link href="/about">About Company</Link>
+                        <Link href="/">Etats Financiers</Link>
                       </li>
                       <li>
-                        <Link href="/portfolio">Case Study</Link>
+                        <Link href="/">Traitement & salaire</Link>
                       </li>
                       <li>
-                        <Link href="/career">Career</Link>
+                        <Link href="/">TVA</Link>
                       </li>
                       <li>
-                        <Link href="/blog">blog</Link>
+                        <Link href="/">Compta</Link>
                       </li>
                       <li>
-                        <Link href="/contact">contact</Link>
+                        <Link href="/">Paie</Link>
                       </li>
+                      <li>
+                        <Link href="/">Immobilisations</Link>
+                      </li>
+                      <li>
+                        <Link href="/">Ineo</Link>
+                      </li>
+                      
                     </ul>
                   </div>
 
                   <div className="footer__widget-3">
-                    <h2 className="footer__widget-title">Contact Us</h2>
+                    <h2 className="footer__widget-title">Contact</h2>
                     <ul className="footer__contact">
-                      <li>Valentin, Street Road 24, New York, USA - 67452</li>
+                      <li>113 Avenue Mers Sultan, 4ème étage. Casablanca</li>
                       <li>
                         <a href="tel:02574328301" className="phone">
-                          (+02) 574 - 328 - 301{" "}
+                        +212 5 22 27 42 14{" "}
                         </a>
                       </li>
                       <li>
-                        <a href="mailto:info@buildyexample.com">
-                          info@buildyexample.com
+                        <a href="mailto:contact@generafi.ma">
+                        contact@generafi.ma
+
                         </a>
                       </li>
                     </ul>
@@ -110,26 +117,26 @@ export default function Footer3() {
 
                   <div className="footer__widget-4">
                     <h2 className="project-title">
-                      Have a project in your mind?
+                      Avez-vous des questions ?
                     </h2>
                     <div className="btn_wrapper">
                       <Link
                         href="/contact"
                         className="wc-btn-primary btn-hover btn-item"
                       >
-                        <span></span> contact us{" "}
+                        <span></span> Contactez-nous{" "}
                         <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                     </div>
-                    <h3 className="contact-time">09 : 00 AM - 10 : 30 PM</h3>
-                    <h4 className="contact-day">Saturday - Thursday</h4>
+                    <h3 className="contact-time">9H - 18H </h3>
+                    <h4 className="contact-day">Lundi - Vendredi</h4>
                   </div>
 
                   <div className="footer__copyright">
                     <p>
                       © 2022 - 2025 | Alrights reserved by{" "}
-                      <a href="https://wealcoder.com/" target="_blank">
-                        Wealcoder
+                      <a href="https://aeon.ma/" target="_blank">
+                        Aeon
                       </a>
                     </p>
                   </div>
@@ -139,7 +146,7 @@ export default function Footer3() {
                       <input
                         type="email"
                         name="email"
-                        placeholder="Enter your email"
+                        placeholder="Entrez votre adresse mail"
                       />
                       <button type="submit" className="subs-btn">
                         <i className="fa-solid fa-paper-plane"></i>

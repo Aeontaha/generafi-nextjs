@@ -26,11 +26,10 @@ const StartupAgencyTestimonial = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="testimonial__sec-title text-anim">
-                <h2 className="sec-subtile-6">Testimonials</h2>
-                <h3 className="sec-title-6 title-anim">Clients feedback</h3>
+                <h2 className="sec-subtile-6">Témoignages</h2>
+                <h3 className="sec-title-6 title-anim">Feedback Clients </h3>
                 <p>
-                  We are Trusted by 10,000+ global customers teams like have
-                  projects with this template
+                De nombreux clients ont choisi de nous faire confiance, et de partager avec nous leurs témoignages...
                 </p>
               </div>
             </div>
