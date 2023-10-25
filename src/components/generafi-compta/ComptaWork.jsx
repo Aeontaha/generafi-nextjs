@@ -1,4 +1,4 @@
-import { FaIconName } from 'react-icons/fa';
+
 
 
 const ComptaWork = () => {

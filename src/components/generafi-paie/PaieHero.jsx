@@ -2,10 +2,10 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "@/plugins";
 import ArrowDownSm from "../../../public/assets/imgs/icon/arrow-down-sm.png";
-import comptabanner from "../../../public/assets/imgs/hero/3/comptabanner.jpg";
+import paiebanner from "../../../public/assets/imgs/hero/3/paiebanner.jpg";
 import Image from "next/image.js";
 
-const ComptaHero = () => {
+const PaieHero = () => {
   const titleLeft = useRef();
   const titleRight = useRef();
   const heroTextAnim = useRef();
@@ -69,21 +69,20 @@ const ComptaHero = () => {
   };
   return (
     <>
-      <section className="hero__area-3 hero__about" ref={heroArea}>
+      <section className="hero__area-3 hero__paie" ref={heroArea}>
         <div className="container">
           <div className="row">
             <div className="col-xxl-12">
               <div className="hero__inner-3">
                 <div className="sec-title-wrapper">
                   <h2 className="sec-sub-title">Production comptable</h2>
-                  <h3 className="sec-title title-left compta-title" ref={titleLeft}>
-                    Comptabilité
+                  <h3 className="sec-title title-left" ref={titleLeft}>
+                    Paie
                   </h3>
-
                 </div>
                 <div className="hero__text-3">
                   <p className="hero__text-animation" ref={heroTextAnim}>
-                    Suivez votre performance financière avec une longueur d’avance…
+                    La gestion de la paie à la portée de tout le monde.
                   </p>
                 </div>
                 <div className="scroll-down">
@@ -138,7 +137,7 @@ const ComptaHero = () => {
             priority
             width={1195}
             style={{ height: "auto" }}
-            src={comptabanner}
+            src={paiebanner}
             alt="Hero Image"
             className="hero3-img"
           />
@@ -148,4 +147,4 @@ const ComptaHero = () => {
   );
 };
 
-export default ComptaHero;
+export default PaieHero;

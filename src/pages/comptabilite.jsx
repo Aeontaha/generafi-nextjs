@@ -6,6 +6,7 @@ import Comptaf from "@/components/generafi-compta/Comptaf";
 import ComptaWork from "@/components/generafi-compta/ComptaWork";
 import ComptaFaq from "@/components/generafi-compta/ComptaFaq";
 import ComptaCta from "@/components/generafi-compta/ComptaCta";
+import ComptaImage from "@/components/generafi-compta/ComptaImage";
 
 export default function Comptabilte ( ) {
     return(
@@ -18,6 +19,7 @@ export default function Comptabilte ( ) {
             <main>
                 <RootLayout header="header4" footer="footer3">
                     <ComptaHero/>
+                    <ComptaImage/>
                     <ComptaAbout/>
                     <Comptaf/>
                     <ComptaWork/>
