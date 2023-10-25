@@ -70,7 +70,7 @@ const GenerafiBrand = () => {
               <div className="sec-title-wrapper">
                 <h2 className="sec-sub-title title-anim">Nos partenaires</h2>
                 <h3 className="sec-title title-anim">
-                  Plus de 2 000 clients dans le monde<br /> nous font confiance !
+                  Plus de 2 000 clients dans le monde<br /> nous font confiance !
                   
                 </h3>
               </div>
