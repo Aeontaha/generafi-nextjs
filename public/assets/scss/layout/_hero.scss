@@ -276,6 +276,10 @@
         }
       }
 
+      .compta-title{
+        font-size: 143px;
+      }
+
       .title-right {
         position: absolute;
         right: 0;
@@ -1091,6 +1095,13 @@
         margin-right: calc(-.5 * var(--bs-gutter-x));
       }
     }
+  }
+
+  &__paie{
+    background-image: url(/assets/imgs/about/about-bg-paie.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    overflow: hidden;
   }
 
   &__link {

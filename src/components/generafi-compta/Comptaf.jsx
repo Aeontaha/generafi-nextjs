@@ -6,7 +6,7 @@ const Comptaf = () => {
   return (
     <>
       <section className="service__detail">
-        <div className="container g-0 line pb-100">
+        <div className="container g-0 line pt-100 pb-100">
           <div className="line-3"></div>
           <div className="row">
             <div className="col-xxl-12">

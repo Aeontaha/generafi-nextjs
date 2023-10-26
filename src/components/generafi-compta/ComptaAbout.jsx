@@ -1,7 +1,3 @@
-import compta1 from "../../../public/assets/imgs/story/compta1.jpg";
-import compta2 from "../../../public/assets/imgs/story/compta2.jpg";
-import compta3 from "../../../public/assets/imgs/story/compta3.jpg";
-import compta4 from "../../../public/assets/imgs/story/compta4.jpg";
 import Image from "next/image";
 
 const ComptaAbout = () => {
@@ -35,7 +31,6 @@ const ComptaAbout = () => {
               </div>
             </div>
           </div>
-             
         </div>
       </section>
     </>
