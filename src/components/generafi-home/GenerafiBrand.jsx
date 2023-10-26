@@ -71,11 +71,9 @@ const GenerafiBrand = () => {
                 <h2 className="sec-sub-title title-anim">Nos partenaires</h2>
                 <h3 className="sec-title title-anim">
                   Plus de 2 000 clients dans le monde<br /> nous font confiance !
-                  
                 </h3>
               </div>
             </div>
-
             <div className="col-xxl-12">
               <div className="brand__list">
                 <div className="brand__item fade_bottom">
