@@ -59,9 +59,6 @@ const GenerafiBrand = () => {
       <section className="brand__area">
         <div className="container g-0 line pt-140 pb-130">
           <span className="line-3"></span>
-      <section className="brand__area">
-        <div className="container g-0 line pt-140 pb-130">
-          <span className="line-3"></span>
           <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
@@ -84,7 +81,6 @@ const GenerafiBrand = () => {
                   />
                 </div>
                 <div className="brand__item fade_bottom">
-                <div className="brand__item fade_bottom">
                   <Image
                     priority
                     width={85}
@@ -93,7 +89,6 @@ const GenerafiBrand = () => {
                     alt="Brand Logo"
                   />
                 </div>
-                <div className="brand__item fade_bottom">
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
@@ -104,7 +99,6 @@ const GenerafiBrand = () => {
                   />
                 </div>
                 <div className="brand__item fade_bottom">
-                <div className="brand__item fade_bottom">
                   <Image
                     priority
                     width={82}
@@ -113,7 +107,6 @@ const GenerafiBrand = () => {
                     alt="Brand Logo"
                   />
                 </div>
-                <div className="brand__item fade_bottom">
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
@@ -124,66 +117,11 @@ const GenerafiBrand = () => {
                   />
                 </div>
                 <div className="brand__item fade_bottom">
-                <div className="brand__item fade_bottom">
                   <Image
                     priority
                     width={121}
                     height={63}
                     src={sita}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={114}
-                    height={64}
-                    src={rado}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={82}
-                    height={70}
-                    src={sita}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={115}
-                    height={67}
-                    src={rado}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={121}
-                    height={63}
-                    src={rbt}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={97}
-                    height={67}
-                    src={sita}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={85}
-                    height={67}
-                    src={rado}
                     alt="Brand Logo"
                   />
                 </div>
