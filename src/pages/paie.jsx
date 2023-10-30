@@ -6,6 +6,8 @@ import PaieAbout from "@/components/generafi-paie/PaieAbout";
 import PaieAtout from "@/components/generafi-paie/PaieAtout";
 import PaieFaq from "@/components/generafi-paie/PaieFaq";
 import PaieCta from "@/components/generafi-paie/PaieCta";
+import PaieVideo from "@/components/generafi-paie/PaieVideo";
+import PaieSecond from "@/components/generafi-paie/PaieSecond";
 
 
 export default function Paie ( ) {
@@ -21,6 +23,8 @@ export default function Paie ( ) {
                     <PaieHero/>
                     <PaieImage/>
                     <PaieAbout/>
+                    <PaieVideo/>
+                    <PaieSecond/>
                     <PaieAtout/>
                     <PaieFaq/>
                     <PaieCta/>
