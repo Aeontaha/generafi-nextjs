@@ -1,11 +1,11 @@
 import { Accordion } from "react-bootstrap";
-import ThumbFaq from "../../../public/assets/imgs/thumb/faqimg.jpg";
+import ThumbFaq from "../../../public/assets/imgs/thumb/application-femme.jpg";
 import Image from "next/image";
 
 const ComptaFaq = () => {
   return (
     <>
-      <section className="faq__area">
+      <section className="faq__area pt-130">
         <div className="container g-0 line pb-140">
           <div className="line-3"></div>
           <div className="row">
