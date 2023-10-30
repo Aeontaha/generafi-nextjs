@@ -1104,6 +1104,13 @@
     overflow: hidden;
   }
 
+  &__immo{
+    background-image: url(/assets/imgs/about/about-bg-immo.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    overflow: hidden;
+  }
+
   &__link {
     display: inline-block;
     max-width: 300px;

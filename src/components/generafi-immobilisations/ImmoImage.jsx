@@ -1,4 +1,4 @@
-const PaieImage = () => {
+const ImmoImage = () => {
     return (
       <>
         <section className="award__area-8">
@@ -12,5 +12,5 @@ const PaieImage = () => {
     );
   };
   
-  export default PaieImage;
+  export default ImmoImage;
   
