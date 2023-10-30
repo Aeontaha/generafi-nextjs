@@ -32,15 +32,13 @@ const ComptaCta = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                 <div className="cta__content-4">
                   <h2 className="cta__title-4 title-anim">
-                    Lat’s make someting great together
+                    Télécharger la plaquette Compta
                   </h2>
                 </div>
               </div>
-              <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+              <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4 pt-100">
                 <div className="cta__content-4 text-anim">
-                  <p>
-                  Télécharger la plaquette Compta
-                  </p>
+                 
                   <Link className="btn-started" href="/contact">
                     Télécharger{" "}
                     <span>

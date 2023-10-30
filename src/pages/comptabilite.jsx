@@ -4,8 +4,11 @@ import ComptaHero from "@/components/generafi-compta/ComptaHero";
 import ComptaAbout from "@/components/generafi-compta/ComptaAbout";
 import Comptaf from "@/components/generafi-compta/Comptaf";
 import ComptaWork from "@/components/generafi-compta/ComptaWork";
+import ComptClients from "@/components/generafi-compta/ComptaClients";
+import ComptaVideo from "@/components/generafi-compta/ComptaVideo";
 import ComptaFaq from "@/components/generafi-compta/ComptaFaq";
 import ComptaCta from "@/components/generafi-compta/ComptaCta";
+import ComptaClients from "@/components/generafi-compta/ComptaClients";
 import ComptaImage from "@/components/generafi-compta/ComptaImage";
 
 export default function Comptabilte ( ) {
@@ -21,8 +24,10 @@ export default function Comptabilte ( ) {
                     <ComptaHero/>
                     <ComptaImage/>
                     <ComptaAbout/>
+                    <ComptaVideo/>
                     <Comptaf/>
                     <ComptaWork/>
+                    <ComptaClients/>
                     <ComptaFaq/>
                     <ComptaCta/>
                 </RootLayout>

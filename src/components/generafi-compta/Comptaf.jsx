@@ -1,4 +1,4 @@
-import ServiceDetail from "../../../public/assets/imgs/thumb/service-detail.png";
+import ServiceDetail from "../../../public/assets/imgs/portfolio/detail/BanCompta.png";
 import Shape6 from "../../../public/assets/imgs/icon/shape-6.png";
 import Image from "next/image";
 
@@ -6,7 +6,7 @@ const Comptaf = () => {
   return (
     <>
       <section className="service__detail">
-        <div className="container g-0 line pb-140">
+        <div className="container g-0 line pt-100">
           <div className="line-3"></div>
           <div className="row">
             <div className="col-xxl-12">
@@ -18,7 +18,7 @@ const Comptaf = () => {
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
               <div className="service__detail-circle">
-                <span></span>
+                <span className="compta"></span>
               </div>
             </div>
             <div className="col-xxl-9 col-xl-9 col-lg-9 col-md-9">

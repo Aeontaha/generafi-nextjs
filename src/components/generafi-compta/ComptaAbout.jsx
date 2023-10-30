@@ -1,7 +1,3 @@
-import compta1 from "../../../public/assets/imgs/story/compta1.jpg";
-import compta2 from "../../../public/assets/imgs/story/compta2.jpg";
-import compta3 from "../../../public/assets/imgs/story/compta3.jpg";
-import compta4 from "../../../public/assets/imgs/story/compta4.jpg";
 import Image from "next/image";
 
 const ComptaAbout = () => {
@@ -32,50 +28,6 @@ const ComptaAbout = () => {
                   qui vous permettra de faire face aux obligations comptables de votre entreprise et de vos clients.
                   </p>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-              <div className="story__img-wrapper">
-                <Image
-                  priority
-                  width={300}
-                  style={{ height: "auto" }}
-                  src={compta1}
-                  alt="Story Thumbnail"
-                  className="w-100"
-                />
-              </div>
-            </div>
-            <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-              <div className="story__img-wrapper img-anim">
-                <Image
-                  priority
-                  width={520}
-                  style={{ height: "auto" }}
-                  src={compta3}
-                  alt="Story Thumbnail"
-                  data-speed="auto"
-                />
-              </div>
-            </div>
-            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-              <div className="story__img-wrapper">
-                <Image
-                  priority
-                  width={230}
-                  style={{ height: "auto" }}
-                  src={compta2}
-                  alt="Story Thumbnail"
-                />
-                <Image
-                  priority
-                  width={410}
-                  style={{ height: "auto" }}
-                  src={compta4}
-                  alt="Story Thumbnail"
-                />
               </div>
             </div>
           </div>

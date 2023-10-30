@@ -54,7 +54,7 @@ const GenerafiRoll = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Gestion d'entreprise</h2>
+                <h2>Gestion d&apos;entreprise</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -99,7 +99,7 @@ const GenerafiRoll = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Gestion d'entreprise</h2>
+                <h2>Gestion d&apos;entreprise</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
