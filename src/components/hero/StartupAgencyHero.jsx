@@ -82,11 +82,11 @@ const StartupAgencyHero = () => {
                   alt="Arrow Icon"
                 />
                 <h1 className="hero__title-6 " ref={heroTitle}>
-                  Magical <br /> Axtra Startup Solution{" "}
+                Libérez<br />potontiel de votre entreprise{" "}
                 </h1>
                 <p ref={heroText}>
-                  Our team always reviews all previous methods with <br />{" "}
-                  models, and processes to determined
+                Éditeur marocain de logiciels de gestion fiables et fonctionnels  <br />{" "}
+                orientés métier et expérience utilisateur.
                 </p>
                 <Link
                   className="btn-started btn-hover"

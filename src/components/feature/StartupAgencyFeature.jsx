@@ -68,9 +68,10 @@ const StartupAgencyFeature = () => {
           <div className="row">
             <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-6">
               <div className="feature__content-left">
-                <h2 className="sec-subtile-6">Features</h2>
+                <h2 className="sec-subtile-6">Générafi</h2>
                 <h3 className="sec-title-6 title-anim">
-                  We handle visual <br /> design challenges <br /> our way.
+                  Comptables GénéraFi: <br /> Votre Partenaire Digital.
+                <br /> 
                 </h3>
               </div>
             </div>
@@ -78,14 +79,16 @@ const StartupAgencyFeature = () => {
               <div className="feature__content-right">
                 <h4 className="feature__title-6">Creativity</h4>
                 <p>
-                  We are constantly rethinking the future by creating the next
-                  generation of products,{" "}
-                  <span>brands and design features</span> from a hybrid
-                  perspective.
+                En s’inscrivant dans un processus de digitalisation
+                globale, votre cabinet peut améliorer la qualité de son
+                offre et se positionner sur de nouveaux marchés.
                 </p>
                 <p>
-                  Regulatory oneven an enterprises such she and the got the did
-                  attributing and pushed.
+                GénéraFi devient votre allié pour réussir cette
+                transition digitale en vous proposant des outils
+                applicatifs basés sur des technologies innovantes et
+                un conseil adapté tant au niveau technique qu’au
+                niveau organisationnel
                 </p>
                 <Image
                   priority
