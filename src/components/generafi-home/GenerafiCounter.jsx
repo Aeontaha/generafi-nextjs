@@ -78,7 +78,7 @@ const GenerafiCounter = () => {
                   <span className="counter__border"></span>
                 </div>
                 <div className="counter__item counter__anim">
-                  <h2 className="counter__number count2">5k+</h2>
+                  <h2 className="counter__number count">5k+</h2>
                   <p>
                   Utilisateurs <br />
                   </p>

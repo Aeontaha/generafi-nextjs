@@ -29,7 +29,7 @@ const Generafi2 = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <RootLayout header="header4" footer="footer3">
+        <RootLayout header="header4" footer="footer4">
           <StartupAgencyHero />
           <GenerafiProduction/>
           <StartupAgencyService />

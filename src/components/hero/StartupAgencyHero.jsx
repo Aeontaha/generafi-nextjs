@@ -93,7 +93,7 @@ const StartupAgencyHero = () => {
                   href="/contact"
                   ref={heroAnchor}
                 >
-                  Get Started
+                  Voir plus
                 </Link>
               </div>
             </div>

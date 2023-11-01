@@ -6,6 +6,10 @@ import ineoassets from "../../../public/assets/imgs/blog/3/bureau.jpg";
 import immoasset from "../../../public/assets/imgs/blog/3/finger.jpg";
 import logoimmo from "../../../public/assets/imgs/blog/3/logoimmo.png";
 import logoineo from "../../../public/assets/imgs/blog/3/logo_ineo.png";
+import assetIneo from "../../../public/assets/imgs/blog/3/assetIneo.jpg";
+import assetImmo from "../../../public/assets/imgs/blog/3/assetImmo.jpg";
+
+
 import Image from "next/image.js";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -85,14 +89,14 @@ const BlogElementV2 = () => {
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
-                        src={ineoassets}
+                        src={ineoassets}ineoassets
                         alt="Blog Thumbnail"
                       />
                       <Image
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
-                        src={ineoassets}
+                        src={assetIneo}
                         alt="Blog Thumbnail"
                       />
                     </div>
@@ -141,7 +145,7 @@ const BlogElementV2 = () => {
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
-                        src={immoasset}
+                        src={assetImmo}
                         alt="Blog Thumbnail"
                       />
                     </div>

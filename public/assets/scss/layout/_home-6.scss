@@ -74,7 +74,7 @@ main {
     padding: 17px 36px 16px;
     color: var(--white);
     border-radius: 5px;
-    background: var(--black);
+    background: #2f60ac;
     display: inline-block;
 
     i {
@@ -82,8 +82,9 @@ main {
     }
 
     &:hover {
-      color: var(--white);
-      background-color: #FF977B;
+      color: var(--black);
+      background-color: #ffffff;
+      border: 1px solid #2f60ac;
     }
   }
 
@@ -219,7 +220,7 @@ main {
 
   &__title {
     &-6 {
-      font-size: 100px;
+      font-size: 77px;
       line-height: 1;
       font-weight: 600;
       color: var(--black-2);
@@ -482,7 +483,7 @@ main {
     }
 
     &-right {
-      background-color: #1E2024;
+      background-color: #2F5FAB;
       padding: 143px 60px 0px 110px;
       position: relative;
 
@@ -501,7 +502,7 @@ main {
 
       p {
         font-size: 18px;
-        color: var(--gray-18);
+        color: var(--white);
         line-height: 1.5;
         padding-bottom: 25px;
         padding-right: 242px;
