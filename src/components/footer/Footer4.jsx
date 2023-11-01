@@ -60,8 +60,9 @@ export default function Footer4() {
                     alt="Footer Logo"
                   />
                   <p>
-                    When do they work well, and when do they <br /> on us and
-                    finally, when do we actually need how can we avoid them.
+                   
+                    Depuis notre création en 2011, notre mission est d’accompagner <br />
+                    la transformation digitale de l’entreprise marocain
                   </p>
                   <ul className="footer__social-6">
                     <li>
