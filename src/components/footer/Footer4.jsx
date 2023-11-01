@@ -61,7 +61,7 @@ export default function Footer4() {
                   />
                   <p>
                    
-                    Depuis notre création en 2011, notre mission est d’accompagner <br />
+                    Depuis notre création en 2011, notre mission est d’accompagner
                     la transformation digitale de l’entreprise marocain
                   </p>
                   <ul className="footer__social-6">
