@@ -10,8 +10,9 @@ import ComptaFaq from "@/components/generafi-compta/ComptaFaq";
 import ComptaCta from "@/components/generafi-compta/ComptaCta";
 import ComptaClients from "@/components/generafi-compta/ComptaClients";
 import ComptaImage from "@/components/generafi-compta/ComptaImage";
+import ComptaHero2 from "@/components/compta-gen-2/ComptaHero2";
 
-export default function Comptabilte ( ) {
+export default function Comptabilte2 ( ) {
     return(
         <div>
             <Head>
@@ -21,7 +22,7 @@ export default function Comptabilte ( ) {
             </Head>
             <main>
                 <RootLayout header="header4" footer="footer3">
-                    <ComptaHero/>
+                    <ComptaHero2/>
                     <ComptaAbout/>
                     <ComptaVideo/>
                     <Comptaf/>
