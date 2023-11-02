@@ -6,6 +6,7 @@ import comptabanner from "../../../public/assets/imgs/hero/3/comptabanner.jpg";
 import Shape1 from "../../../public/assets/imgs/home-7/shape-1.png";
 import Shape2 from "../../../public/assets/imgs/home-7/shape-2.png";
 import Shape22 from "../../../public/assets/imgs/home-7/shape-22.png";
+import cmpta from "../../../public/assets/imgs/home-7/cmpta.png"
 import Shape3 from "../../../public/assets/imgs/home-7/shape-3.png";
 import Image from "next/image.js";
 
@@ -37,7 +38,13 @@ const ComptaHero2 = () => {
                 </h1>
               </div>
               <div className="hero__text-7">
-                <h2 className="about">Générafi {""}</h2>
+                <h2 className="about"><Image
+                    priority
+                    width={125}
+                    style={{ height: "auto" }}
+                    src={cmpta}
+                    alt="shape"
+                  /></h2>
                 <p>
                 Suivez votre performance financière avec une longueur d’avance…
                 </p>
