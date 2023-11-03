@@ -58,7 +58,7 @@ const StartupAgencyWorkflow = () => {
   return (
     <>
       <section className="workflow__area-4">
-        <div className="container line_4 pt-100 pb-130">
+        <div className="container line_4 pt-100 pb-100">
           <div className="line-col-4">
             <div></div>
             <div></div>

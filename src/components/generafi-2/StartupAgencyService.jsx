@@ -56,7 +56,7 @@ const StartupAgencyService = () => {
   return (
     <>
       <section className="service__area-4">
-        <div className="container g-0 line_4 pt-150 pb-140">
+        <div className="container g-0 line_4 pt-150 pb-50">
           <div className="line-col-4">
             <div></div>
             <div></div>

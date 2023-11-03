@@ -1,22 +1,15 @@
 import Head from "next/head";
 import RootLayout from "@/components/common/layout/RootLayout";
-import StartupAgencyHero from "@/components/hero/StartupAgencyHero";
-import StartupAgencyWorkflow from "@/components/workflow/StartupAgencyWorkflow";
-import StartupAgencyFeature from "@/components/feature/StartupAgencyFeature";
-import StartupAgencyService from "@/components/service/StartupAgencyService";
-import StartupAgencyFaq from "@/components/faq/StartupAgencyFaq";
-import StartupAgencyPortfolio from "@/components/portfolio/StartupAgencyPortfolio";
-import StartupAgencyBrand from "@/components/brand/StartupAgencyBrand";
-import StartupAgencyTestimonial from "@/components/testimonial/StartupAgencyTestimonial";
-import StartupAgencySolution from "@/components/solution/StartupAgencySolution";
-import StartupAgencyBlog from "@/components/blog/StartupAgencyBlog";
-import StartupAgencyCTA from "@/components/cta/StartupAgencyCTA";
-import GenerafiProduction from "@/components/generafi-home/GenerafiProduction";
-import GenerafiService from "@/components/generafi-home/GenerafiService";
-import GenerafiCounter from "@/components/generafi-home/GenerafiCounter";
-import GenerafiBrand from "@/components/generafi-home/GenerafiBrand";
-import GenerafiTestimonial from "@/components/generafi-home/GenerafiTestimonial";
-import GenerafiWorkflow from "@/components/generafi-home/GenerafiWorkflow"; 
+import StartupAgencyHero from "@/components/generafi-2/StartupAgencyHero";
+import StartupAgencyFeature from "@/components/generafi-2/StartupAgencyFeature";
+import StartupAgencyService from "@/components/generafi-2/StartupAgencyService";
+
+import GenerafiProduction from "@/components/generafi-2/GenerafiProduction";
+import GenerafiService from "@/components/generafi-2/GenerafiService";
+import GenerafiCounter from "@/components/generafi-2/GenerafiCounter";
+import GenerafiBrand from "@/components/generafi-2/GenerafiBrand";
+import GenerafiTestimonial from "@/components/generafi-2/GenerafiTestimonial";
+import GenerafiWorkflow from "@/components/generafi-2/GenerafiWorkflow"; 
 
 
 

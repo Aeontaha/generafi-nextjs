@@ -77,7 +77,7 @@ const StartupAgencyFeature = () => {
             </div>
             <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-6">
               <div className="feature__content-right">
-                <h4 className="feature__title-6">Creativity</h4>
+                <h4 className="feature__title-6">Digitalisation</h4>
                 <p>
                 En s’inscrivant dans un processus de digitalisation
                 globale, votre cabinet peut améliorer la qualité de son
@@ -130,30 +130,12 @@ const StartupAgencyFeature = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="feature__content-btm">
                 <div className="feature__content-item fade_bottom_4">
-                  <Image
-                    priority
-                    width={50}
-                    height={50}
-                    src={Icon1}
-                    alt="Features Image"
-                  />
-                  <h5>
-                    Unique Header & <br /> Sidebar
-                  </h5>
-                  <p>Unique digital header widget metaverse wearables</p>
-                </div>
-                <div className="feature__content-item fade_bottom_4">
-                  <Image
-                    priority
-                    width={50}
-                    height={50}
-                    src={Icon2}
-                    alt="Features Image"
-                  />
-                  <h5>
-                    5+ Navigation <br /> Bars
-                  </h5>
-                  <p>Content focused grid designs unique social element</p>
+                <a
+                  className="btn-started btn-hover"
+                  href="/contact"
+                >
+                  En savoir plus
+                </a>
                 </div>
               </div>
             </div>
