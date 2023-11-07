@@ -1,10 +1,11 @@
 import Head from "next/head";
 import RootLayout from "@/components/common/layout/RootLayout";
 import ImmoHero  from "@/components/generafi-immobilisations/ImmoHero"
-import ImmoImage from "@/components/generafi-immobilisations/ImmoImage";
 import ImmoAbout from "@/components/generafi-immobilisations/ImmoAbout";
 import ImmoAtout from "@/components/generafi-immobilisations/ImmoAtout";
 import ImmoA from "@/components/generafi-immobilisations/ImmoA";
+import ImmoVideo from "@/components/generafi-immobilisations/ImmoVideo";
+import ImmoSecond from "@/components/generafi-immobilisations/ImmoSecond";
 
 
 export default function Generafi ( ) {
@@ -16,10 +17,11 @@ export default function Generafi ( ) {
                 <meta name="viewport" content="width=device-wedith, initial-scale=1"/>
             </Head>
             <main>
-                <RootLayout header="header4" footer="footer3">
+                <RootLayout header="header4" footer="footer4">
                     <ImmoHero/>
-                    <ImmoImage/>
                     <ImmoAbout/>
+                    <ImmoVideo/>
+                    <ImmoSecond/>
                     <ImmoAtout/>
                     <ImmoA/>
                 </RootLayout>

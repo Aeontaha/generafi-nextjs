@@ -8,6 +8,7 @@ import PaieFaq from "@/components/generafi-paie/PaieFaq";
 import PaieCta from "@/components/generafi-paie/PaieCta";
 import PaieVideo from "@/components/generafi-paie/PaieVideo";
 import PaieSecond from "@/components/generafi-paie/PaieSecond";
+import PaieClient from "@/components/generafi-paie/PaieClient";
 
 
 export default function Paie ( ) {
@@ -19,13 +20,13 @@ export default function Paie ( ) {
                 <meta name="viewport" content="width=device-wedith, initial-scale=1"/>
             </Head>
             <main>
-                <RootLayout header="header4" footer="footer3">
+                <RootLayout header="header4" footer="footer4">
                     <PaieHero/>
-                    <PaieImage/>
                     <PaieAbout/>
                     <PaieVideo/>
                     <PaieSecond/>
                     <PaieAtout/>
+                    <PaieClient/>
                     <PaieFaq/>
                     <PaieCta/>
                 </RootLayout>

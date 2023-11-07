@@ -1,4 +1,4 @@
-import ServiceDetail from "../../../public/assets/imgs/portfolio/detail/BanCompta.png";
+import BanPaie from "../../../public/assets/imgs/portfolio/detail/BanPaie.png";
 import Shape6 from "../../../public/assets/imgs/icon/shape-6.png";
 import Image from "next/image";
 
@@ -11,14 +11,14 @@ const PaieSecond = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
-                <h2 className="sec-title title-anim">
+                <h2 className="sec-title title-anim paieP">
                 GénéraFi paie saura combler vos attentes !
                 </h2>
               </div>
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
               <div className="service__detail-circle">
-                <span className="compta"></span>
+                <span className="paie"></span>
               </div>
             </div>
             <div className="col-xxl-9 col-xl-9 col-lg-9 col-md-9">
@@ -27,7 +27,7 @@ const PaieSecond = () => {
                   priority
                   width={960}
                   style={{ height: "auto" }}
-                  src={ServiceDetail}
+                  src={BanPaie}
                   alt="Service detail image"
                 />
                 <Image

@@ -4,6 +4,15 @@
 
 
 // Section Title
+.comptaT{
+    color: var(--black-2) !important ;
+}
+.paieP{
+  color: var(--black-2) !important ;
+}
+.immoI{
+  color: var(--black-2) !important ;
+}
 .sec {
   &-title {
     font-weight: 500;
@@ -26,6 +35,7 @@
     @media #{$sm} {
       font-size: 32px;
     }
+    
 
     &-2 {
       font-weight: 500;
