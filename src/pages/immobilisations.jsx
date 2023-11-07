@@ -6,6 +6,8 @@ import ImmoAtout from "@/components/generafi-immobilisations/ImmoAtout";
 import ImmoA from "@/components/generafi-immobilisations/ImmoA";
 import ImmoVideo from "@/components/generafi-immobilisations/ImmoVideo";
 import ImmoSecond from "@/components/generafi-immobilisations/ImmoSecond";
+import ImmoClient from "@/components/generafi-immobilisations/ImmoClient";
+import ImmoFaq from "@/components/generafi-immobilisations/ImmoFaq";
 
 
 export default function Generafi ( ) {
@@ -24,6 +26,8 @@ export default function Generafi ( ) {
                     <ImmoSecond/>
                     <ImmoAtout/>
                     <ImmoA/>
+                    <ImmoClient/>
+                    <ImmoFaq/>
                 </RootLayout>
             </main>
         </div>

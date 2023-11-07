@@ -2,7 +2,7 @@ import { Accordion } from "react-bootstrap";
 import ThumbFaq from "../../../public/assets/imgs/thumb/application-femme.jpg";
 import Image from "next/image";
 
-const ComptaFaq = () => {
+const ImmoFaq = () => {
   return (
     <>
       <section className="faq__area paie_faq">
@@ -120,4 +120,4 @@ const ComptaFaq = () => {
   );
 };
 
-export default ComptaFaq;
+export default ImmoFaq;
