@@ -23,7 +23,6 @@ export default function Comptabilte ( ) {
                 <RootLayout header="header4" footer="footer3">
                     <ComptaHero/>
                     <ComptaAbout/>
-                    <ComptaVideo/>
                     <Comptaf/>
                     <ComptaWork/>
                     <ComptaClients/>

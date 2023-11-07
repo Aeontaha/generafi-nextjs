@@ -89,14 +89,14 @@ const BlogElementV2 = () => {
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
-                        src={ineoassets}ineoassets
+                        src={ineoassets}
                         alt="Blog Thumbnail"
                       />
                       <Image
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
-                        src={assetIneo}
+                        src={ineoassets}
                         alt="Blog Thumbnail"
                       />
                     </div>
@@ -145,7 +145,7 @@ const BlogElementV2 = () => {
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
-                        src={assetImmo}
+                        src={immoasset}
                         alt="Blog Thumbnail"
                       />
                     </div>
