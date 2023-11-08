@@ -5,6 +5,7 @@ import Home7m from "../../../public/assets/imgs/home-7/m.png";
 import Home7w from "../../../public/assets/imgs/home-7/w.png";
 import Home7fwa from "../../../public/assets/imgs/home-7/fwa.png";
 import Home7webby from "../../../public/assets/imgs/home-7/webby.png";
+import logoGenerafi from "../../../public/assets/imgs/logo/generafilogo.png";
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
@@ -89,20 +90,25 @@ const ComptaClients = () => {
                 </div>
                 <div className="award-video-7">
                   <video loop muted autoPlay playsInline>
-                    <source src="assets/video/video.mp4" type="video/mp4" />
+                    <source src="assets/video/generafi-compta.mp4" type="video/mp4" />
                   </video>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="award__btm-7">
+          <div className="award__btm-7 clients2">
             <div className="row">
               <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-4">
                 <div className="award__left-7">
-                  <h2 className="sec-title title-anim">
-                    Générafi 
-                  </h2>
+                 
+                  <Image
+                        priority
+                        width={200}
+                        style={{ height: "auto" }}
+                        src={logoGenerafi}
+                        alt="Image"
+                      />
                 </div>
               </div>
               <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-8">
@@ -115,46 +121,15 @@ const ComptaClients = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4">
                 <div className="award__right-7">
                   <div className="award__list-7">
-                    <div className="award__item-7 zoom_in">
-                      <Image
-                        priority
-                        width={53}
-                        height={46}
-                        src={Home7m}
-                        alt="Image"
-                      />
-                      <h3 className="title">1x Mobile Award</h3>
+                    <div className="fade_bottom_2 counter2">
+                      <h2 className="counter__number">2000+</h2>
+                      <p>Clients</p>
                     </div>
-                    <div className="award__item-7 zoom_in">
-                      <Image
-                        priority
-                        width={54}
-                        height={46}
-                        src={Home7w}
-                        alt="Image"
-                      />
-                      <h3 className="title">2x Best Website</h3>
+                    <div className=" fade_bottom_2 counter2 ">
+                      <h2 className="counter__number">5000+</h2>
+                      <p>Utilisateurs</p>
                     </div>
-                    <div className="award__item-7 zoom_in">
-                      <Image
-                        priority
-                        width={100}
-                        height={30}
-                        src={Home7fwa}
-                        alt="Image"
-                      />
-                      <h3 className="title">2x Web the Day</h3>
-                    </div>
-                    <div className="award__item-7 zoom_in">
-                      <Image
-                        priority
-                        width={72}
-                        height={41}
-                        src={Home7webby}
-                        alt="Image"
-                      />
-                      <h3 className="title">3x Web Animation</h3>
-                    </div>
+                    
                   </div>
                 </div>
               </div>

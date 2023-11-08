@@ -35,8 +35,8 @@
 
       .shape-1 {
         position: absolute;
-        right: 100px;
-        bottom: 200px;
+        right: 70px;
+        bottom: 80px;
 
         @media #{$xl} {
           right: 60px;
@@ -269,6 +269,18 @@
   }
 
 }
+.clients2 {
+  background-color: var(--gray-17) !important;
+
+  p{
+    color: var(--black-3) !important;
+  }
+}
+
+.clients2::after {
+   
+    background-color: var(--gray-17) !important;
+  }
 
 
 .award {
@@ -402,6 +414,7 @@
       background-color: #1777a7;
     }
   }
+
 
   &__right-7 {
     @media #{$md} {
