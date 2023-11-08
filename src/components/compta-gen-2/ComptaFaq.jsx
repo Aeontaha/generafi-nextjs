@@ -1,5 +1,5 @@
 import { Accordion } from "react-bootstrap";
-import ThumbFaq from "../../../public/assets/imgs/thumb/application-femme.jpg";
+import ThumbFaq from "../../../public/assets/imgs/thumb/3992745.jpg";
 import Image from "next/image";
 
 const ComptaFaq = () => {

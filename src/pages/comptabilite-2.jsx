@@ -6,9 +6,9 @@ import Comptaf from "@/components/generafi-compta/Comptaf";
 import ComptaWork from "@/components/generafi-compta/ComptaWork";
 import ComptClients from "@/components/generafi-compta/ComptaClients";
 import ComptaVideo from "@/components/generafi-compta/ComptaVideo";
-import ComptaFaq from "@/components/generafi-compta/ComptaFaq";
+import ComptaFaq from "@/components/compta-gen-2/ComptaFaq";
 import ComptaCta from "@/components/generafi-compta/ComptaCta";
-import ComptaClients from "@/components/generafi-compta/ComptaClients";
+import ComptaClients from "@/components/compta-gen-2/ComptaClients";
 import ComptaImage from "@/components/generafi-compta/ComptaImage";
 import ComptaHero2 from "@/components/compta-gen-2/ComptaHero2";
 
