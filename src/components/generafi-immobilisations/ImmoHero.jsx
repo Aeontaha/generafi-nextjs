@@ -55,7 +55,7 @@ const   ImmoHero = () => {
 
         <Image
           priority
-          width={320}
+          width={520}
           style={{ height: "auto" }}
           src={Shape44}
           alt="shape"

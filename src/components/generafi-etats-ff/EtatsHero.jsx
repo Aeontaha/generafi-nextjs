@@ -7,7 +7,7 @@ import Shape1 from "../../../public/assets/imgs/home-7/shape-1.png";
 import Shape2 from "../../../public/assets/imgs/home-7/shape-2.png";
 import Shape25 from "../../../public/assets/imgs/home-7/shape-25.png";
 import etatf from "../../../public/assets/imgs/home-7/etatf.png"
-import Shape44 from "../../../public/assets/imgs/home-7/shape-44.png";
+import Shape55 from "../../../public/assets/imgs/home-7/shape-55.png";
 import Image from "next/image.js";
 
 const   EtatsHero = () => {
@@ -55,9 +55,9 @@ const   EtatsHero = () => {
 
         <Image
           priority
-          width={320}
+          width={520}
           style={{ height: "auto" }}
-          src={Shape44}
+          src={Shape55}
           alt="shape"
           className="shape-1"
         />

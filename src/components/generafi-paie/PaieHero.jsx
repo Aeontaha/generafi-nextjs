@@ -55,7 +55,7 @@ const PaieHero = () => {
 
         <Image
           priority
-          width={320}
+          width={520}
           style={{ height: "auto" }}
           src={Shape33}
           alt="shape"

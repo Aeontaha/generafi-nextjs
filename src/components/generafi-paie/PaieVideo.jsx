@@ -89,7 +89,7 @@ const PaieVideo = () => {
            
             <div className="single__thumb">
               <video loop muted autoPlay playsInline>
-                <source src="assets/video/generafi-compta.mp4" type="video/mp4" />
+                <source src="assets/video/generafi-paie.mp4" type="video/mp4" />
               </video>
               <Image
                 priority

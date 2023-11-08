@@ -9,7 +9,7 @@ const EtatsA = () => {
   }, []);
   return (
     <div>
-      <section className="portfolio__service service-v5 pt-140 pb-140 sec-immo">
+      <section className="portfolio__service service-v5 pt-140 pb-140 sec-etat">
         <div className="container">
           <div className="row">
             <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-6">
