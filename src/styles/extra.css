@@ -8,6 +8,17 @@
 .immo{
   background-color: #43719C !important;
 }
+.etats{
+  background-color:  #afcfdf !important;
+}
+
+.etat-pp{
+  color: var(--white);
+}
+.et-faq{
+  color: var(--black-4);
+}
+
 .offcanvas__menu {
   padding-top: 142px;
 }

@@ -10,7 +10,7 @@ import ImmoFaq from "@/components/generafi-immobilisations/ImmoFaq";
 import ImmoCta from "@/components/generafi-immobilisations/ImmoCta";
 
 
-export default function Generafi ( ) {
+export default function Immobilisations ( ) {
     return(
         <div>
             <Head>

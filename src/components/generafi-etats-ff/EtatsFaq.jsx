@@ -2,7 +2,7 @@ import { Accordion } from "react-bootstrap";
 import ThumbFaq from "../../../public/assets/imgs/thumb/application-femme.jpg";
 import Image from "next/image";
 
-const ImmoFaq = () => {
+const EtatsFaq = () => {
   return (
     <>
       <section className="faq__area paie_faq">
@@ -23,7 +23,7 @@ const ImmoFaq = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="faq__content">
                 <h2 className="faq__title title-anim">
-                 Modules principaux 
+                Fonctionnalités principales 
                 </h2>
 
                 <div className="faq__list">
@@ -37,12 +37,14 @@ const ImmoFaq = () => {
                         className="accordion-header"
                         id="headingOne"
                       >
-                        Localisez vos immobilisations en permanence
+                        Établissez et contrôlez votre liasse fiscale
                       </Accordion.Header>
                       <Accordion.Body className="accordion-body">
                         <p className="et-faq">
-                        GENERAFI IMMO vous permet de géo-localiser chaque immobilisation au sein de votre organisation. 
-                        Grâce à ses fonctionnalités avancées, suivez la traçabilité complète des mouvements.
+                        Les tableaux de votre liasse fiscale sont générés automatiquement d’après votre balance comptable. 
+                        Consultez le détail de chaque rubrique et modifier les formules de calcul des rubriques que vous jugez nécessaire. 
+                        Générez votre contrôle de concordance qui vous indiquera les irrégularités restantes au niveau de vos tableaux de liasse fiscale 
+                        avant de l’imprimer en sous format Pdf ou xls.
                         </p>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -52,13 +54,12 @@ const ImmoFaq = () => {
                         className="accordion-header"
                         id="headingTwo"
                       >
-                        Personnalisez vos Etats et Reportings
+                        Renseignez en toute simplicité votre tableau des dotations aux amortissements relatifs aux immobilisations
                       </Accordion.Header>
                       <Accordion.Body className="accordion-body">
                         <p className="et-faq">
-                        En plus des multiples états standards intégrés et d’un puissant générateur d’états. 
-                        GénéraFi IMMO vous permet de disposer d’une vue transversale et détaillée de vos biens pour être en mesure 
-                        d’en tracer les évolutions par la mise à disposition de filtres et d’options de visualisations personnalisés.
+                        Grâce à un module d’importation paramétrable intégré à cette solution,
+                         importez d’Excel votre tableau de dotations aux amortissements relatifs aux immobilisations en toute simplicité
                         </p>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -68,12 +69,13 @@ const ImmoFaq = () => {
                         className="accordion-header"
                         id="headingThree"
                       >
-                        Inventoriez en toute simplicité vos immobilisations
+                        Laissez-vous guider par l’Assistant Télédéclaration
                       </Accordion.Header>
                       <Accordion.Body className="accordion-body">
                         <p className="et-faq">
-                        Grâce à son module avancé d’inventaire physique, GENERAFI IMMO vous apporte simplicité et fiabilité de vos inventaires immobilisations. 
-                        Vous apprécierez l’inventaire par code à barre et les rapports d’inventaire dont vous disposerez pour réaliser vos opérations de rapprochement comptable.
+                        Grâce à ses fonctionnalités innovantes, 
+                        l’Assistant vous apporte simplicité et sérénité dans le processus 
+                        de dépôt de vos déclarations fiscales sur la plateforme Simpl-IS https://is.tax.gov.ma/is de l’administration fiscale.
                         </p>
                         
                       </Accordion.Body>
@@ -89,4 +91,4 @@ const ImmoFaq = () => {
   );
 };
 
-export default ImmoFaq;
+export default EtatsFaq;
