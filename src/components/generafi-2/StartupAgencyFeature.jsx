@@ -7,6 +7,7 @@ import Feature43 from "../../../public/assets/imgs/feature/4/3.png";
 import Feature from "../../../public/assets/imgs/feature/4/feature.jpg";
 import Icon1 from "../../../public/assets/imgs/feature/4/icon-1.png";
 import Icon2 from "../../../public/assets/imgs/feature/4/icon-2.png";
+import Link from "next/link";
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
