@@ -26,6 +26,11 @@
   }
 }
 
+.sec-immo{
+  background-color: #6493c5 !important;
+  background-image: url(/assets/imgs/shape/immo-sec.png) !important;
+}
+
 .portfolio {
 
   &__hero {
@@ -629,11 +634,15 @@
 
   }
   // update v0.2 
+
+  
   &__service {
     background-color: var(--green-2);
     background-image: url(/assets/imgs/shape/17.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+    margin-top: 130px;
+    margin-bottom: 130px;
 
     .sec-title {
       max-width: 350px;
@@ -684,7 +693,7 @@
         max-width: 320px;
         font-size: 18px;
         line-height: 1.4;
-        color: var(--black-13);
+        color: var(--white);
         padding-top: 150px;
         opacity: 0;
 

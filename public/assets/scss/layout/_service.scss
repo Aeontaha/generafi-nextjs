@@ -33,7 +33,9 @@
     }
 
     &-2 {
-      background-color: var(--pink);
+      background-color: var(--white);
+      margin-top: 110px;
+      margin-bottom: 110px;
 
       @media #{$sm} {
         padding-bottom: 70px;

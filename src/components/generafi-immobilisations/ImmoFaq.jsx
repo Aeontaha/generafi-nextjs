@@ -37,15 +37,13 @@ const ImmoFaq = () => {
                         className="accordion-header"
                         id="headingOne"
                       >
-                        Personnel
+                        Localisez vos immobilisations en permanence
                       </Accordion.Header>
                       <Accordion.Body className="accordion-body">
-                        <ul>
-                            <li>+ Administration du Personnel</li>
-                            <li>+ Gestion des contrats de travail avec rédaction et historisation</li>
-                            <li>+ Consultation des bulletins de paie</li>
-                            <li>+ Gestion des Prêts et crédits logement</li>
-                        </ul>
+                        <p>
+                        GENERAFI IMMO vous permet de géo-localiser chaque immobilisation au sein de votre organisation. 
+                        Grâce à ses fonctionnalités avancées, suivez la traçabilité complète des mouvements.
+                        </p>
                       </Accordion.Body>
                     </Accordion.Item>
 
@@ -54,18 +52,14 @@ const ImmoFaq = () => {
                         className="accordion-header"
                         id="headingTwo"
                       >
-                        Gestion de la Paie
+                        Personnalisez vos Etats et Reportings
                       </Accordion.Header>
                       <Accordion.Body className="accordion-body">
-                      <ul>
-                            <li>+ Souplesse du paramétrage avancée des rubriques de la paie et possibilité d’adaptation à tout secteur d’activité</li>
-                            <li>+ Conformité réglementaire avec bases et plafonds</li>
-                            <li>+ Génération en masse des bulletins de salaire avec visualisation avant impression</li>
-                            <li>+ Possibilité d’importation des variables de la paie et attachement avec pointeuse</li>
-                            <li>+ Paie inversée à partir du montant net stipulé dans le contrat du salarié</li>
-                            <li>+ Possibilité d’ajout de nouvelles rubriques de paie pendant la préparation du bulletin</li>
-                            <li>+ Assistant processus Solde de tout compte</li>
-                        </ul>
+                        <p>
+                        En plus des multiples états standards intégrés et d’un puissant générateur d’états. 
+                        GénéraFi IMMO vous permet de disposer d’une vue transversale et détaillée de vos biens pour être en mesure 
+                        d’en tracer les évolutions par la mise à disposition de filtres et d’options de visualisations personnalisés.
+                        </p>
                       </Accordion.Body>
                     </Accordion.Item>
 
@@ -74,41 +68,16 @@ const ImmoFaq = () => {
                         className="accordion-header"
                         id="headingThree"
                       >
-                        Editions & déclarations
+                        Inventoriez en toute simplicité vos immobilisations
                       </Accordion.Header>
                       <Accordion.Body className="accordion-body">
                         <p>
-                        Personnalisation des bulletins de paie, et états des cotisations
+                        Grâce à son module avancé d’inventaire physique, GENERAFI IMMO vous apporte simplicité et fiabilité de vos inventaires immobilisations. 
+                        Vous apprécierez l’inventaire par code à barre et les rapports d’inventaire dont vous disposerez pour réaliser vos opérations de rapprochement comptable.
                         </p>
-                        <ul>
-                            <li>+ Edition du livre de paie avec filtres dynamiques</li>
-                            <li>+ Gestion des déclarations sociales « CNSS, CIMR, Mutuelle » et télé-déclaration</li>
-                            <li>+ Etat des Traitements & Salaires avec génération du fichier EDI du Simpl-IR</li>
-                        </ul>
+                        
                       </Accordion.Body>
-                    </Accordion.Item>
-
-                    <Accordion.Item eventKey="3" className="accordion-item">
-                      <Accordion.Header
-                        className="accordion-header"
-                        id="headingFour"
-                      >
-                        Autres fonctionnalités
-                      </Accordion.Header>
-                      <Accordion.Body className="accordion-body">
-                        <p>
-                        Multi-sociétés, multi-établissements et multi-utilisateurs
-                        </p>
-
-                        <ul>
-                            <li>+ Gestion des acomptes et prêts accordés au Personnel</li>
-                            <li>+ Etat des virements bancaires</li>
-                            <li>+ Démarrage en cours d’année par la possibilité de saisir les cumuls annuels des bulletins dans la fiche fiscale de chaque salarié.</li>
-                            <li>+ Génération automatisée des documents administratifs RH (contrats de travail, certificat de travail, attestation de salaire.)</li>
-                        </ul>
-
-                      </Accordion.Body>
-                    </Accordion.Item>
+                    </Accordion.Item> 
                   </Accordion>
                 </div>
               </div>

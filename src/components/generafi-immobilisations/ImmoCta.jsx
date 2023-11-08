@@ -1,10 +1,10 @@
 import Link from "next/link";
-import paiemobile from "../../../public/assets/imgs/thumb/paiemobile.png";
+import immomobilr from "../../../public/assets/imgs/thumb/immomobilr.png";
 import Shape21 from "../../../public/assets/imgs/shape/21.png";
 import Shape22 from "../../../public/assets/imgs/shape/22.png";
 import Image from "next/image";
 
-const PaieCta = () => {
+const ImmoCta = () => {
   return (
     <>
       <div className="cta__area-4 ">
@@ -16,7 +16,7 @@ const PaieCta = () => {
             <div></div>
           </div>
 
-          <div className="cta__inner-4 cta__paie-cta">
+          <div className="cta__inner-4 cta__immo-cta">
             <div className="row">
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                 <div className="cta__content-4">
@@ -24,7 +24,7 @@ const PaieCta = () => {
                     priority
                     width={270}
                     height={264}
-                    src={paiemobile}
+                    src={immomobilr}
                     alt="Cta Image"
                   />
                 </div>
@@ -32,8 +32,7 @@ const PaieCta = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                 <div className="cta__content-4">
                   <h2 className="cta__title-4 title-anim">
-                  Contactez <br/>
-                  nous
+                    Contactez <br/> nous
                   </h2>
                 </div>
               </div>
@@ -75,4 +74,4 @@ const PaieCta = () => {
   );
 };
 
-export default PaieCta;
+export default ImmoCta;

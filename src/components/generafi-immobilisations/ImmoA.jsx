@@ -1,111 +1,69 @@
-import { useEffect } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger, ScrollSmoother } from "@/plugins";
+import animationCharCome from "@/lib/utils/animationCharCome";
 import Link from "next/link";
-
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+import React, { useEffect, useRef } from "react";
 
 const ImmoA = () => {
+  const charAnim = useRef();
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      let device_width = window.innerWidth;
-      let tHero = gsap.context(() => {
-        let animation_services_7 = gsap.utils.toArray(
-          ".animation_service_7 .service__item-7"
-        );
-        gsap.set(animation_services_7, {
-          opacity: 0,
-          x: -30,
-        });
-
-        if (animation_services_7) {
-          if (device_width < 1023) {
-            animation_services_7.forEach((item, i) => {
-              gsap.to(item, {
-                scrollTrigger: {
-                  trigger: item,
-                  start: "top center+=200",
-                  markers: false,
-                },
-                opacity: 1,
-                x: -0,
-                ease: "power2.out",
-                duration: 2,
-                stagger: {
-                  each: 0.4,
-                },
-              });
-            });
-          } else {
-            gsap.to(".animation_service_7 .service__item-7", {
-              scrollTrigger: {
-                trigger: ".animation_service_7",
-                start: "top center+=200",
-                markers: false,
-              },
-              opacity: 1,
-              x: 0,
-              ease: "power2.out",
-              duration: 2,
-              stagger: {
-                each: 0.4,
-              },
-            });
-          }
-        }
-      });
-      return () => tHero.revert();
-    }
+    animationCharCome(charAnim.current);
   }, []);
   return (
-    <>
-      <section className="service__area-7 pt-130">
+    <div>
+      <section className="portfolio__service service-v5 pt-140 pb-140 sec-immo">
         <div className="container">
           <div className="row">
-            <div className="col-xxl-12">
-              <div className="service__items-7 animation_service_7">
-                <div className="service__item-7">
-                  <Link href="">
-                    <h3 className="service__title-7">
-                    Conformité <span>Légale</span>
+            <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-6">
+              <h2 className="sec-title animation__char_come" ref={charAnim}>
+                {" "}
+                Atout
+              </h2>
+            </div>
+            <div className="col-xxl-7 col-xl-7 col-lg-6 col-md-6">
+              <div className="sec-text">
+                <p>
+                  Static and dynamic secure code review can prevent a 0day
+                  before your product is even released. We can integrate with
+                  your dev environment
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="portfolio__service-list">
+            <div className="row">
+              <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                <div className="portfolio__service-item">
+                  
+                    <h3 className="ps-title">
+                      Gestion électronique <br /> de documentes
                     </h3>
-                  </Link>
-                  <p>
-                  Conformité règlementaire à jour 
-                  avec les dispositions légales actuelles en vigueur
-                  </p>
+                  
+                </div>
+              </div>
+              <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                <div className="portfolio__service-item">
+                  
+                    <h3 className="ps-title">
+                    Fonctions
+                      <br />  d’impression avancées
+                    </h3>
                  
                 </div>
-                <div className="service__item-7">
-                  <Link href="">
-                    <h3 className="service__title-7">
-                    Gestion<span>Mensuelle</span>{" "}
-                    </h3>
-                  </Link>
-                  <p>
-                    Autonomie totale dans la gestion de la paie mensuelle
-                  </p>
+              </div>
+              <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                <div className="portfolio__service-item">
                   
-                </div>
-                <div className="service__item-7">
-                  <Link href="/service-details">
-                    <h3 className="service__title-7">
-                    Optimisation de  <span>Productivité</span>{" "}
+                    <h3 className="ps-title">
+                    Assistant à 
+                      <br /> l’inventaire physique
                     </h3>
-                  </Link>
-                  <p>
-                  Assistance du service RH pour améliorer sa productivité
-                  </p>
-                  
+                 
                 </div>
-               
-                
               </div>
             </div>
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
